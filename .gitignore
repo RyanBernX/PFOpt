@@ -1,0 +1,7 @@
+examples/maxeig/low-rank-opt/
+examples/maxeig/low-rank-opt.zip
+examples/pfam-ext/run/
+examples/pfam-ext/*.zip
+examples/pfam-ext/aspire/
+examples/pfam-ext
+*~
