@@ -1,5 +1,5 @@
 # PFOpt
----
+
 PFOpt is a MATLAB toolbox for solving large-scale low-rank optimization
 problems using polynomial-filtered subspace extraction. 
 ## Problems and Solvers
@@ -80,7 +80,7 @@ eigenvalues of a given matrix A. If all negative or k smallest eigenvalues
 are needed, change A into -A.
 
 ## References
-- [Yongfeng Li, Haoyang Liu, Zaiwen Wen, and Yaxiang Yuan. Low-rank Matrix Optimization Using Polynomial-filtered Subspace Extraction.](placeholder)
+- [Yongfeng Li, Haoyang Liu, Zaiwen Wen, and Yaxiang Yuan. Low-rank Matrix Optimization Using Polynomial-filtered Subspace Extraction.](https://arxiv.org/pdf/1904.10585.pdf)
 - [Friedlander M. P. and Macêdo, I. Low-rank Spectral Optimization via Gauge Duality. SIAM Journal on Scientific Computing (2016): A1616-A1638.](https://doi.org/10.1137/15M1034283)
 - [Lanhui Wang, Amit Singeer, and Zaiwen Wen. Orientation Determination of Cryo-EM Images Using Least Unsquared Deviations. SIAM Journal on Imaging Sciences (2013): 2450-2483.](https://epubs.siam.org/doi/abs/10.1137/130916436)
 - [Zaiwen Wen and Yin Zhang. Accelerating Convergence by Augmented Rayleigh--Ritz Projections For Large-Scale Eigenpair Computation. SIAM Journal on Matrix Analysis and Applications (2017): 273-296.](https://epubs.siam.org/doi/abs/10.1137/16M1058534)
