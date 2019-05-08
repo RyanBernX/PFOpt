@@ -25,6 +25,14 @@ is designed for the maximal eigenvalue problem:
 This code uses the [GAUGE software package](https://www.cs.ubc.ca/~mpf/pubs/low-rank-spectral-optimization-via-gauge-duality/) described here:
 - Low-rank spectral optimization via gauge duality. M. P. Friedlander and I. Macêdo. SIAM J. on Scientific Computing, 38(3):A1616-A1638, 2016
 
+### PFAM
+PFAM is used for solving standard or non-linear SDPs. The polynomial filters
+are applied to perform projections on to the semi-define space.
+
+The sample codes included are designed for solving:
+
+![pfam1](_img/pfam1.jpg)
+
 ## Installation
 
 First download the source code and unzip anywhere you like.
@@ -42,6 +50,7 @@ instructions in the corresponding folders, see `README.md`.
 - `ncm`: nearest correlation matrix problems, see `test_synthetic.m`
 and `test_real.m`.
 - `maxeig`: maximal eigenvalue problems, see `test_phaselift.m`.
+- `pfam-ext`: PFAM for non-linear SDPs, see `cryoEMADM.m`.
 
 ## How to Apply PFOpt to Your Own Solver
 If your own solver contains eigenvalue decompositions, you can simply plug
